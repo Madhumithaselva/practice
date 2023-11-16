@@ -7,6 +7,18 @@ public class Main {
         String wavingHand = "\uD83D\uDC4B"; //initialising a string with waving hand emoji unicode
         // Print a message with the waving hand emoji
         System.out.println("Hello "+ name +"!"+ wavingHand);
-        System.out.println(heart);
+
+
+        //Exercise with 2 strings
+        String firstName="Madhumitha";
+        String lastName="Selvaraj";
+        System.out.println("Hello "+firstName+ " "+lastName+wavingHand);
+
+        //Declaring the variables and initialising it
+        int a=10,b=35,c;
+        c=a+b;
+        System.out.println("Result:"+c);
+
+
     }
 }
